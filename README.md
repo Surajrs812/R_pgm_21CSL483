@@ -1,7 +1,5 @@
 # R_pgm_21CSL483
 Repository containing all 10 programs of R programming lab of 4th semester
-# R Programs list
-# R Programs
 
 1. [Fibonacci Sequence](pgm_01.R)
    - Original Question:
