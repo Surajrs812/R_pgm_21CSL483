@@ -12,4 +12,4 @@ fibonacci <- function(n){
 
 limit <- as.numeric(readline('Enter the series range: '))
 for(i in 0:limit+1)
-  print(paste(fibonacci(i)))
+  cat(fibonacci(i))
