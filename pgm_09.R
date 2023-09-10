@@ -1,7 +1,3 @@
-# Write a program in R that defines a class student with name, age and height as
-# list values. Define multiple functions that takes the class list values as 
-# arguments and returns name in uppercase, mean, median, sd, variance and error 
-# rate of age and height values. Display the results.
 
 # Define the Student class
 Student <- setClass(
