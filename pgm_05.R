@@ -1,5 +1,6 @@
 sentence <- tolower(readline('Enter a valid Sentence: '))
 sentence_chars <- unlist(strsplit(sentence, ''))  # Split sentence into characters
+# or use strsplit(sentence, ' ')[[1]]
 vowel_count <- 0
 consonant_count <- 0
 
