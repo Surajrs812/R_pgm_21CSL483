@@ -1,6 +1,3 @@
-
-# Program 1: Write an R program to print fibonacci series upto given number n
-
 fibonacci <- function(n){
   if(n==1)
     return(0)
@@ -10,6 +7,7 @@ fibonacci <- function(n){
     return(fibonacci(n-1)+fibonacci(n-2))
 }
 
+#driver code
 limit <- as.numeric(readline('Enter the series range: '))
-for(i in 0:limit+1)
-  cat(fibonacci(i))
+for(i in 1:limit+1)
+  cat(fibonacci(i), " ")
