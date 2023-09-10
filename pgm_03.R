@@ -2,10 +2,10 @@
 
 x <- sample(1:100, 10)
 cat("Vector x: ", x)
-min <- x[1]
+x.min <- x[1]
 for(i in x)
 {
-  if(i < min)
-    min <- i
+  if(i < x.min)
+    x.min <- i
 }
-cat("\nMinimum of vector x is", min)
+cat("\nMinimum of vector x is", x.min)
